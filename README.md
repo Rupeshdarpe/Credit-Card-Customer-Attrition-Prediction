@@ -30,31 +30,31 @@ The dataset consists of **10,127 observations** and **23 variables**[cite: 917].
 * **Demographics:** Age, Gender, Dependent count, Education Level, Marital Status, Income Category[cite: 921].
 * **Relationship Data:** Months on book, Total Relationship Count, Months Inactive[cite: 921].
 * **Card Usage:** Credit Limit, Total Revolving Balance, Utilization Ratio[cite: 923].
-* **Transactions:** Total Transaction Amount, Total Transaction Count, Change in Transaction Amount/Count (Q4 vs. Q1)[cite: 923].
+* **Transactions:** Total Transaction Amount, Total Transaction Count, Change in Transaction Amount/Count (Q4 vs. Q1).
 
 ## 📈 Key Findings
 1.  **Transaction Activity is King:** The strongest predictors of churn are **Total Transaction Count** and **Total Transaction Amount**[cite: 671, 1270]. Low activity is a major red flag.
-2.  **The "Cluster of Death":** A distinct cluster of customers exists who make fewer than 40-50 transactions and spend less than $2,500 annually; these customers are at the highest risk of churning[cite: 1136, 672].
+2.  **The "Cluster of Death":** A distinct cluster of customers exists who make fewer than 40-50 transactions and spend less than $2,500 annually; these customers are at the highest risk of churning.
 3.  **Inactivity Signals Risk:** Months of inactivity and a drop in transaction count/amount from Q4 to Q1 are top indicators of disengagement[cite: 1247, 1272].
 4.  **Customer Service Contacts:** High frequency of contacts with the bank is linked to higher churn, suggesting unresolved issues or dissatisfaction[cite: 1249].
 5.  **Demographics are Less Predictive:** Factors like age, gender, and income category are less significant predictors compared to behavioral transaction data[cite: 1009, 1058].
 
 ## 🤖 Model: Random Forest Classifier
 A Random Forest Classifier was chosen for its robustness and ability to rank feature importance.
-* **Top Feature:** `Total_Trans_Amt` (Total Transaction Amount)[cite: 1221, 1243].
-* **Second Feature:** `Total_Trans_Ct` (Total Transaction Count)[cite: 1222, 1243].
-* **Third Feature:** `Total_Revolving_Bal` (Total Revolving Balance)[cite: 1223].
-The model confirmed that declining usage and engagement are the primary warning signs of attrition[cite: 1272].
+* **Top Feature:** `Total_Trans_Amt` (Total Transaction Amount).
+* **Second Feature:** `Total_Trans_Ct` (Total Transaction Count).
+* **Third Feature:** `Total_Revolving_Bal` (Total Revolving Balance).
+The model confirmed that declining usage and engagement are the primary warning signs of attrition.
 
 ## 💡 Recommendations
-1.  **Target Low-Activity Users:** Implement automated alerts for customers whose transaction counts fall below the 40-transaction threshold. Trigger personalized engagement campaigns (e.g., rewards for usage)[cite: 1258, 1259].
-2.  **Proactive Support:** Identify customers with high contact rates and escalate their cases to retention specialists to resolve underlying issues before they leave[cite: 1276].
-3.  **Personalized Offers:** Utilize EDA findings to target specific high-risk segments (e.g., age 40-50) with relevant offers like balance transfer benefits or fee waivers[cite: 1261].
-4.  **Engagement Programs:** Focus on newly onboarded customers to ensure they establish a habit of using the card early on[cite: 1276].
+1.  **Target Low-Activity Users:** Implement automated alerts for customers whose transaction counts fall below the 40-transaction threshold. Trigger personalized engagement campaigns (e.g., rewards for usage).
+2.  **Proactive Support:** Identify customers with high contact rates and escalate their cases to retention specialists to resolve underlying issues before they leave.
+3.  **Personalized Offers:** Utilize EDA findings to target specific high-risk segments (e.g., age 40-50) with relevant offers like balance transfer benefits or fee waivers.
+4.  **Engagement Programs:** Focus on newly onboarded customers to ensure they establish a habit of using the card early on.
 
 ## 🚀 Future Scope
-* **Real-Time Dashboard:** Deploy the model into a real-time dashboard for branch managers to monitor churn risk[cite: 1280].
-* **Deep Learning:** Experiment with Artificial Neural Networks to potentially improve prediction accuracy[cite: 1282].
-* **Sentiment Analysis:** Integrate customer feedback and complaint data to add a qualitative dimension to the churn prediction[cite: 1283].
+* **Real-Time Dashboard:** Deploy the model into a real-time dashboard for branch managers to monitor churn risk.
+* **Deep Learning:** Experiment with Artificial Neural Networks to potentially improve prediction accuracy.
+* **Sentiment Analysis:** Integrate customer feedback and complaint data to add a qualitative dimension to the churn prediction.
 
 
