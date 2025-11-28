@@ -1,5 +1,5 @@
 # Credit-Card-Customer-Attrition-Prediction
-# Credit Card Customer Attrition Prediction
+
 
 ## 📊 Project Overview
 This project analyzes credit card customer attrition for a major financial institution. The goal is to understand the reasons behind customer churn and predict which customers are most likely to leave. By leveraging historical customer data and machine learning, this analysis provides actionable insights to help the bank reduce churn and improve customer retention strategies.
