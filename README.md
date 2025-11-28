@@ -57,10 +57,4 @@ A Random Forest Classifier was chosen for its robustness and ability to rank fea
 * [cite_start]**Deep Learning:** Experiment with Artificial Neural Networks to potentially improve prediction accuracy[cite: 1282].
 * [cite_start]**Sentiment Analysis:** Integrate customer feedback and complaint data to add a qualitative dimension to the churn prediction[cite: 1283].
 
-## 👤 Author
-**Rupesh Darpe**
-* [LinkedIn Profile](Add Your LinkedIn URL Here)
-* [Portfolio/GitHub](Add Your Portfolio URL Here)
 
----
-*This project was submitted in partial fulfillment of the Professional Program in Data Analytics at DVOC Institute.*
